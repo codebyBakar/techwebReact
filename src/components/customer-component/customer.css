@@ -1,0 +1,304 @@
+.Customer-section{height: auto;
+width: 100%;
+background: var(--mid-white);
+padding: 100px 40px;
+overflow: hidden;}
+
+
+.customer-infopic{width: 100%;
+display: flex;
+gap: 25px;}
+
+
+.cuntomer-discription{height: 350px;
+width: 55%;
+  background: var(--mid-white);
+  padding: 60px 35px;
+  position: relative;
+box-shadow: rgba(0, 0, 0, 0.08) 0px 0.706592px 0.706592px -0.666667px, rgba(0, 0, 0, 0.08) 0px 1.80656px 1.80656px -1.33333px, rgba(0, 0, 0, 0.07) 0px 3.62176px 3.62176px -2px, rgba(0, 0, 0, 0.07) 0px 6.8656px 6.8656px -2.66667px, rgba(0, 0, 0, 0.05) 0px 13.6468px 13.6468px -3.33333px, rgba(0, 0, 0, 0.02) 0px 30px 30px -4px, rgb(255, 255, 255) 0px 3px 1px 0px inset;
+border-radius: 25px;
+text-align: center;
+}
+
+.cuntomer-pic-box{height: 350px;
+width: 45%;
+  background: var(--mid-white);
+  padding: 20px;
+  position: relative;
+box-shadow: rgba(0, 0, 0, 0.08) 0px 0.706592px 0.706592px -0.666667px, rgba(0, 0, 0, 0.08) 0px 1.80656px 1.80656px -1.33333px, rgba(0, 0, 0, 0.07) 0px 3.62176px 3.62176px -2px, rgba(0, 0, 0, 0.07) 0px 6.8656px 6.8656px -2.66667px, rgba(0, 0, 0, 0.05) 0px 13.6468px 13.6468px -3.33333px, rgba(0, 0, 0, 0.02) 0px 30px 30px -4px, rgb(255, 255, 255) 0px 3px 1px 0px inset;
+border-radius: 25px;
+
+}
+
+
+.customer-pic{height: 100%;
+width: 100%;
+border-radius: 20px;
+background: url(/LQKuaHoocBNNOUwcuUIayGZ8z8.avif);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;}
+
+
+
+.three-rating{width: 100%;
+display: flex;
+gap: 25px;
+padding:20px 0px ;}
+
+
+.rating{height:270px;
+width: 33%;
+  background: var(--mid-white);
+  padding:30px;
+  position: relative;
+box-shadow: rgba(0, 0, 0, 0.08) 0px 0.706592px 0.706592px -0.666667px, rgba(0, 0, 0, 0.08) 0px 1.80656px 1.80656px -1.33333px, rgba(0, 0, 0, 0.07) 0px 3.62176px 3.62176px -2px, rgba(0, 0, 0, 0.07) 0px 6.8656px 6.8656px -2.66667px, rgba(0, 0, 0, 0.05) 0px 13.6468px 13.6468px -3.33333px, rgba(0, 0, 0, 0.02) 0px 30px 30px -4px, rgb(255, 255, 255) 0px 3px 1px 0px inset;
+border-radius: 20px;
+
+}
+
+
+
+.cuntomer-discription p:nth-child(1){font-family: 'satoshi';
+font-size: 24px;
+font-weight: 600;
+color: var(--black);
+line-height: 40px;}
+
+.cuntomer-discription p:nth-child(1) span{color: var(--close-black);}
+
+.cuntomer-discription p:nth-child(2){font-family: 'satoshi';
+font-size: 39px;
+font-weight: 500;
+color: var(--black);
+padding-top: 10px;}
+
+
+.rating-stars{display: flex;
+gap: 8px;}
+
+.rating-stars p:nth-child(5){
+  color: var(--close-black);
+}
+
+
+.rating-disc p{font-family: var(--Inter-font);
+font-size: 16px;
+font-weight: 400;
+color: var(--black);
+opacity: 0.8;
+padding: 17px 0px;
+line-height: 25px;}
+
+.side-border-ratepic{height: 50px;
+width: 70px;
+border-right:2px dotted rgba(128, 128, 128, 0.329) ;
+}
+
+.rate-pic-box{
+  background: var(--mid-white);
+  padding:4px;
+  position: relative;
+box-shadow: rgba(0, 0, 0, 0.08) 0px 0.706592px 0.706592px -0.666667px, rgba(0, 0, 0, 0.08) 0px 1.80656px 1.80656px -1.33333px, rgba(0, 0, 0, 0.07) 0px 3.62176px 3.62176px -2px, rgba(0, 0, 0, 0.07) 0px 6.8656px 6.8656px -2.66667px, rgba(0, 0, 0, 0.05) 0px 13.6468px 13.6468px -3.33333px, rgba(0, 0, 0, 0.02) 0px 30px 30px -4px, rgb(255, 255, 255) 0px 3px 1px 0px inset;
+border-radius: 10px;
+height: 50px;
+width: 50px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.rate-pic{height: 100%;
+width: 100%;
+background: url(/cZ9VBNOcSpg8RiRzIkAXdz6ScF4.avif);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+border-radius: 10px;
+}
+
+.rate-pic2{height: 100%;
+width: 100%;
+background: url(/gcvmIxm2XRx6NG3kYAPz3zZXc6E.avif);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+border-radius: 10px;
+}
+
+.rate-pic3{height: 100%;
+width: 100%;
+background: url(/PG5vQAQIzOrDyrT8NDWpDNTPoY.avif);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+border-radius: 10px;
+}
+
+.display-rate-pic-name{display: flex;
+  align-items: center;
+gap: 15px;}
+
+.rate-names p:nth-child(1){
+  font-family: var(--Inter-font);
+font-size: 16px;
+font-weight: 400;
+}
+
+.rate-names p:nth-child(2){
+  font-family:'satoshi';
+font-size: 12px;
+font-weight: 500;
+}
+
+.customer-percentages{display: flex;
+align-items: center;
+padding: 30px 0px;
+}
+
+.perventage{height: 60px;
+width: 33%;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+row-gap: 8px;}
+
+.per-border{border-left: 2px solid rgba(128, 128, 128, 0.126);
+border-right: 2px solid rgba(128, 128, 128, 0.126);
+padding: 0px 30px;
+
+}
+
+.perventage p:nth-child(1){
+  font-size: 32px ;
+  font-family: var(--Inter-font);
+  font-weight: 400;
+  color: var(--black);
+}
+
+.perventage p:nth-child(2){
+  font-size: 16px ;
+  font-family: var(--Inter-font);
+  font-weight: 400;
+  color: var(--black);
+  opacity: 0.8;
+}
+
+
+
+@media (max-width: 768px) {
+
+  
+  .Customer-section{height: auto;
+width: 100%;
+background: var(--mid-white);
+padding: 100px 10px;}
+
+
+.customer-infopic{
+flex-wrap: wrap;}
+
+
+.cuntomer-discription{height: 350px;
+width: 100%;
+ 
+}
+
+.cuntomer-discription p:nth-child(1){
+  font-size: 20px;
+  line-height: 35px;
+}
+
+.cuntomer-pic-box{height: 350px;
+width: 100%;
+
+
+}
+
+
+
+
+
+
+.three-rating{
+flex-wrap: wrap;}
+
+
+.rating{height:270px;
+width: 100%;
+ 
+
+}
+
+.customer-percentages{flex-wrap: wrap;
+}
+
+.perventage{height: 120px;
+width: 100%;
+}
+
+
+
+
+}
+
+
+
+
+@media (max-width: 468px) {
+
+
+
+
+  .Customer-section{height: auto;
+width: 100%;
+background: var(--mid-white);
+padding: 100px 10px;}
+
+
+.customer-infopic{
+flex-wrap: wrap;}
+
+
+.cuntomer-discription{height: 370px;
+width: 100%;
+ 
+}
+
+.cuntomer-discription p:nth-child(1){
+  font-size: 20px;
+  line-height: 35px;
+}
+
+.cuntomer-pic-box{height: 350px;
+width: 100%;
+
+
+}
+
+
+
+
+
+
+.three-rating{
+flex-wrap: wrap;}
+
+
+.rating{height:270px;
+width: 100%;
+ 
+
+}
+
+.customer-percentages{flex-wrap: wrap;
+}
+
+.perventage{height: 120px;
+width: 100%;
+}
+
+
+
+}

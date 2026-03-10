@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+margin:0;
+padding: 0;
+box-sizing: border-box;
+list-style: none;
+text-decoration: none;
+}
+
+
+:root{
+    --dull-white: #f0f8ffe6;
+    --close-white: #fff;
+    --black: #000;
+    --close-black: #0006;
+    --mid-white: #F5F5F5;
+    --light-gray: #f5f5f533;
+    --gray:#F8F8F8 ;
+    --light-black: #0000008c;
+
+    
+
+    --Inter-font:"Inter", sans-serif;
+
+}
+
+html{scroll-behavior: smooth;}
+
+@font-face {
+  font-family:'satoshi';
+  src: url(./assets/Satoshi-Regular.ttf);
+}
+
+
